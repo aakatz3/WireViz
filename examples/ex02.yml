@@ -3,10 +3,12 @@ connectors:
     type: Molex Micro-Fit
     subtype: male
     pinout: [GND, VCC]
+    part_number: 436400200
   X2: &con_power_f # define template
     type: Molex Micro-Fit
     subtype: female
     pinout: [GND, VCC]
+    part_number: 436450200
   X3:
     <<: *con_power_f # create from template
   X4:
